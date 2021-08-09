@@ -5,13 +5,12 @@ const knex = require('../database/index');
 
 exports.getAll = (req, res) => {
   let data = {}
-  let count = {}
-  knex('livros').count()
-  .then((livros) => {
-    count = livros;
-  })
+  let count = 0
   knex('livros').then((livros) => {
     data = livros
+    for (i in livros) {
+      count = count + 1
+    }
     return res.status(200).json({
       data,
       count

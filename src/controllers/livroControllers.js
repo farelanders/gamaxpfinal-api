@@ -4,9 +4,21 @@ const knex = require('../database/index');
 
 
 exports.getAll = (req, res) => {
-  knex('livros').then((livros) => {
-    return res.status(200).json(livros);
+  const retorno = {
+    data: {
+    },
+    count: {
+    }
+  }
+  knex('livros').count()
+  .then((data) => {
+    retorno.count = data;
   })
+  knex('livros').then((livros) => {
+    retorno.data = livros
+    return res.status(200).json(retorno);
+  })
+  
 }
 
 

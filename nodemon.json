@@ -1,0 +1,8 @@
+{
+    "env" :{
+        "DB_USER" : "admin",
+        "DB_PASSWORD" : "gamaxpfinal",
+        "DB_DATABASE" : "gamaxp-final",
+        "DB_HOST" : "gama.cqvot7mqrvgf.us-east-1.rds.amazonaws.com" 
+    }
+}

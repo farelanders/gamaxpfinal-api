@@ -1,0 +1,19 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "all": "^0.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.6",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.10",
+    "yarn": "^1.22.10",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}

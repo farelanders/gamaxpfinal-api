@@ -6,7 +6,7 @@ const knex = require('../database/index');
 exports.getAll = (req, res) => {
   let data = {}
   let count = 0
-  knex('livros').then((livros) => {
+  knex.select('livros.id', 'titulo', 'descricao', 'idade', 'destaque', 'imagem', 'autor.nome as autor', 'editora.nome as editora', 'categoria.nome as categoria' ).from('livros').innerJoin('autor', 'livros.idAutor', '=', 'autor.id').innerJoin('editora', 'livros.idEditora', '=', 'editora.id').innerJoin('categoria', 'livros.idCategoria', '=', 'categoria.id').then((livros) => {
     data = livros
     for (i in livros) {
       count = count + 1
@@ -16,6 +16,7 @@ exports.getAll = (req, res) => {
       count
     });
   })
+  
 }
 
 

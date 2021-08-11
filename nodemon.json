@@ -3,6 +3,8 @@
         "DB_USER" : "admin",
         "DB_PASSWORD" : "gamaxpfinal",
         "DB_DATABASE" : "gamaxp-final",
-        "DB_HOST" : "gama.cqvot7mqrvgf.us-east-1.rds.amazonaws.com" 
+        "DB_HOST" : "gama.cqvot7mqrvgf.us-east-1.rds.amazonaws.com",
+        "SENDGRID_API_KEY": "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"
     }
+
 }

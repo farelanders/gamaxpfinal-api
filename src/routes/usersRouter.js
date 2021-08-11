@@ -1,16 +1,18 @@
-// routes.get('/livros/autor/:id', livrosControllers.getAutor);
-// routes.get('/livros/editora/:id', produtosController.getEditora);
-
 const Router = require('express'); 
 const livroController = require('../controllers/livroControllers') ;
 const usuarioController = require('../controllers/usuarioControllers');
-const autorController = require('../controllers/autorControllers')
-const editoraController = require('../controllers/editoraControllers')
+const autorController = require('../controllers/autorControllers');
+const editoraController = require('../controllers/editoraControllers');
+const emailControllers = require('../controllers/emailControllers')
+
+
 const routes = Router(); 
 
 routes.get('/', (req, res) => {
     res.send('API Gamaxpfinal!')
-  })
+})
+
+routes.post('/send',emailControllers.sendEmail);
 
 routes.get('/livro/faixaetaria/:faixaetaria', livroController.getFaixaEtaria);
 
@@ -37,14 +39,25 @@ routes.delete('/livro/:id', livroController.delete);//PRONTO
 
 
 
-// routes.put('/livros/:id'.livroController.update);
-// routes.put('/livros/autor/:id'.livroController.update);
-// routes.put('/livros/editora/:id'.livroController.update);
-
-// routes.delete('/livros/:id'.livroController.delete);
-// routes.delete('/livros/autor/:id'.livroController.delete);
-// routes.delete('/livros/editora/:id'.livroController.delete);
-// routes.delete('/usuario'.livroController.delete);
 
 module.exports = routes;
 
+ // const transporte = nodemailer.createTransport({
+    //   host:"smtp.sendgrid.net",
+    //   port: 587,
+    //   auth:{ User , Pass}
+    // }) 
+
+    // transporte.sendMail({
+    //   from: "italosport110@hotmail.com",
+    //   to: "italosport110@hotmail.com",
+    //   replyTo: 'italosport110@hotmail.com',
+    //   subject: 'Deu certo inhoggg!!!',
+    //   text: 'Oi, tudo bem?',
+    //   html: '<p>Oi, tudo bem?</p>'
+      
+    // }).then((info) => {
+    //   res.send(info)
+    // }).catch(error => {
+    //   res.send(error)
+    // })

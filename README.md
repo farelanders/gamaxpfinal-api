@@ -3,7 +3,7 @@
 
 
 # :thinking: O que fizemos?
-Trata-se de um site com indicações de literatura infantil. Os usuários que têm interesse em ler para seus filhos, comprar livros para que seus filhos possam ler, ou ainda, presentear outros pais ou crianças, mas não sabem quais os melhores livros para cada idade, poderão acessar nosso site e pesquisar quais os livros indicados por faixa etária, ver o seu nome, ler a descrição completa do livro, acessar informações como autor e editora, além de visualizar a capa do livro em questão, podendo utilizar tais informações para comprar os livros de seu interesse. Além disso, os usuários poderão assinar nossa newsletter e ficar por dentro de todas as novidades do site.
+Trata-se de um site com indicações de literatura infantil. Os usuários que têm interesse em ler para seus filhos, comprar livros para que seus filhos possam ler, ou ainda, presentear outros pais ou crianças, mas não sabem quais os melhores livros para cada idade, poderão acessar nosso site e pesquisar quais os livros indicados por faixa etária, ver o seu nome, ler a descrição completa do livro, acessar informações como autor e editora, além de visualizar a capa do livro em questão, podendo utilizar tais informações para comprar os livros de seu interesse. Além disso, os usuários poderão assinar nossa newsletter e ficar por dentro de todas as novidades do site. Acesse [aqui!](https://livrertido.herokuapp.com/)
 <br></br>
 
 

@@ -12,21 +12,21 @@ Trata-se de um site com indicações de literatura infantil. Os usuários que t�
 Para construir o back-end, utilizamos os seguintes recursos:
 * [NodeJS v14.17.0](https://nodejs.org/en/ "Dispenso apresentações.")
 * [Express v4.17.1](https://expressjs.com/pt-br/ "Não liga pra ele, ele se acha demais!")
+* [Knex v0.95.6](https://knexjs.org/ "Pra falar com o banco de dados você precisa de mim.")
 * [Nodemon v2.0.10](https://nodemon.io/ "Relaxa, to de olho nas mudanças.")
 * [Yup v0.32.9](https://github.com/jquense/yup "Nenhum erro passará despercebido.")
+* [MySQL Workbench 8.0.25](https://www.mysql.com/products/workbench/ "Fica tranquilo, tá tudo guardadinho aqui.")
+* [Cors v2.8.5](https://github.com/expressjs/cors#readme "Relaxa, eu falo com o front.")
 <br></br>
 
 
 
 # :computer: E aí, como eu uso?
 * Antes de tudo, tá aqui o link para o projeto no GitHub, caso você tenha conseguido este README de formas misteriosas: [GitHub.](https://github.com/farelanders/gamaxpfinal-api.git "Você vai precisar me clonar, mas não sou a ovelha Dolly")
-
 * Faça um clone deste repositório **_$ git clone https://github.com/farelanders/gamaxpfinal-api.git_**
-  
 * Entre no repositório criado **$ cd _gamaxpfinal-api.git_**
-
 * Rode o  **_$ npm install_** ou **_$ yarn_** para instalar as dependências.
-  
+* Não se esqueça de alterar credencias para acesso ao banco de dados no knexfile.js, incluindo seu user, password e database, se necessário.
 * Suba o servidor com o comando **_$ npm start_** **_ou yarn start_**.
 
 
@@ -38,6 +38,6 @@ Para construir o back-end, utilizamos os seguintes recursos:
 
 # :nerd_face: Quem somos?
 * <a href="https://github.com/italo-rodrigues1" target="_blank">Ítalo Rodrigues</a>
+* <a href="https://github.com" target="_blank">Luan Sales</a>
 * <a href="https://github.com/marcoscurymoreira" target="_blank">Marcos Moreira</a>
 * <a href="https://github.com/farelanders" target="_blank">Marcos Travagin</a>
-* <a href="https://github.com" target="_blank">Luan Sales</a>

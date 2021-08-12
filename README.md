@@ -37,7 +37,6 @@ Para construir o back-end, utilizamos os seguintes recursos:
 
 
 # :nerd_face: Quem somos?
-* <a href="https://github.com/italo-rodrigues1" target="_blank">Ítalo Rodrigues</a>
-* <a href="https://github.com" target="_blank">Luan Sales</a>
+* <a href="https://github.com/italo-rodrigues1.png" target="_blank">Ítalo Rodrigues</a>
 * <a href="https://github.com/marcoscurymoreira" target="_blank">Marcos Moreira</a>
 * <a href="https://github.com/farelanders" target="_blank">Marcos Travagin</a>

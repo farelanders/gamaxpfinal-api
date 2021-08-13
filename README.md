@@ -38,16 +38,18 @@ Para construir o back-end, utilizamos os seguintes recursos:
 
 # :nerd_face: Quem somos?
 
+* [Ítalo Rodrigues](https://github.com/italo-rodrigues1)
+* [Marcos Moreira](https://github.com/marcoscurymoreira)
+* [Marcos Travagin](https://github.com/farelanders)
 
 
-<br></br>
-<div style="text-align:left">
-<img src="https://github.com/italo-rodrigues1.png" width="100" height="100" style=" margin:0 10px "/>
-<img src="https://github.com/marcoscurymoreira.png" width="100" height="100" style=" margin:0 10px "/> 
-<img src="https://github.com/farelanders.png" width="100" height="100" style=" margin:0 10px "/>
 
-<a href="https://github.com/italo-rodrigues1" target="_blank" style=" margin:0 10px ">Ítalo Rodrigues</a>
-<a href="https://github.com/marcoscurymoreira" target="_blank" style=" margin:0 10px ">Marcos Moreira</a>
-<a href="https://github.com/farelanders" target="_blank" style=" margin:0 10px ">Marcos Travagin</a>
-</div>
+<!-- <img src="https://github.com/italo-rodrigues1.png" width="100" height="100" />
+<img src="https://github.com/marcoscurymoreira.png" width="100" height="100"/> 
+<img src="https://github.com/farelanders.png" width="100" height="100"/>
+
+<a href="https://github.com/italo-rodrigues1" target="_blank">Ítalo Rodrigues</a>
+<a href="https://github.com/marcoscurymoreira" target="_blank">Marcos Moreira</a>
+<a href="https://github.com/farelanders" target="_blank">Marcos Travagin</a> -->
+
 

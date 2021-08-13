@@ -37,19 +37,6 @@ Para construir o back-end, utilizamos os seguintes recursos:
 
 
 # :nerd_face: Quem somos?
-
-* [Ítalo Rodrigues](https://github.com/italo-rodrigues1)
-* [Marcos Moreira](https://github.com/marcoscurymoreira)
-* [Marcos Travagin](https://github.com/farelanders)
-
-
-
-<!-- <img src="https://github.com/italo-rodrigues1.png" width="100" height="100" />
-<img src="https://github.com/marcoscurymoreira.png" width="100" height="100"/> 
-<img src="https://github.com/farelanders.png" width="100" height="100"/>
-
-<a href="https://github.com/italo-rodrigues1" target="_blank">Ítalo Rodrigues</a>
-<a href="https://github.com/marcoscurymoreira" target="_blank">Marcos Moreira</a>
-<a href="https://github.com/farelanders" target="_blank">Marcos Travagin</a> -->
-
-
+* <a href="https://github.com/italo-rodrigues1" target="_blank">Ítalo Rodrigues</a>
+* <a href="https://github.com/marcoscurymoreira" target="_blank">Marcos Moreira</a>
+* <a href="https://github.com/farelanders" target="_blank">Marcos Travagin</a>
